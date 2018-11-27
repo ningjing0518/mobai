@@ -1,0 +1,208 @@
+.main{
+    width: 1080px;
+    margin: 0 auto;
+}
+.head{
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 88px;
+    background-color: #BB6688;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.1);
+}
+header .logo {
+    float: left;
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+header nav{
+    float: right;
+}
+
+header a{
+    padding: 0 15px;
+    float: left;
+    line-height: 88px;
+    font-size: 18px;
+    color:#ffffff;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner .bg2,.bg3{
+    display: none;
+}
+.head .info{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+}
+.head .info h2{
+    font-size: 70px;
+    color: #ffffff;
+}
+.head .info p{
+    width: 290px;
+    height: 62px;
+    background: rgba(0,0,0,.2);
+    border-radius: 20px;
+}
+.head .info p:hover{
+    background: rgba(0,0,0,.8);
+}
+.head .info a{
+    display: block;
+    line-height: 62px;
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.head .bot a{
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    background:rgba(0,0,0,.2);
+    width: 100%;
+}
+.head .bot a span{
+    width: 57px;
+    height: 20px;
+    background-color: #be0000;
+    border-radius: 5px;
+}
+.list li{
+    width: 25%;
+    float: left;
+    border-right: 1px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    box-sizing: border-box;
+    position: relative;
+}
+.list li img{
+    width:100%;
+    height: 228px;
+}
+.list li p{
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.order li{
+    float: left;
+    width: 33%;
+}
+.order .weixin{
+    float: left
+}
+.order .weixin .text{
+    float: left;
+    margin-top: 50px;
+}
+.order .weixin i{
+    display: block;
+    width: 100px;
+    height: 84px;
+    background: url("../img/icon-wechat.png") no-repeat;
+}
+.order .money{
+    float: left
+}
+.order .money .text{
+    float: left;
+}
+.order .money i{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/icon-rp.png") no-repeat;
+}
+.order .car{
+    float: left
+}
+.order .car .text{
+    float: left;
+}
+.order .car i{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url("../img/icon-credit.png") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 760px){
+    header nav{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: 46px;
+    }
+    header .logo img{
+        margin-top: 8px;
+    }
+    header .logo a img{
+        width: 60px;
+        height: 26px;
+    }
+    main{
+        width: 100%;
+    }
+    .head .info p{
+        width:  130px;
+        height:30px;
+
+    }
+    .head .info h2{
+        font-size: 18px;
+    }
+    .head .info a{
+        font-size: 6px;
+        line-height: 26px;
+        letter-spacing: 0;
+    }
+    .list li{
+        width: 100%;
+        border-right: none;
+    }
+    .order li{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .order{
+        width: 100%;
+    }
+}
